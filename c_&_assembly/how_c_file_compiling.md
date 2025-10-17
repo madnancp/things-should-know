@@ -1,6 +1,6 @@
 # Steps in C program Compilation
 
-[!Reference](https://www.scaler.com/topics/c/compilation-process-in-c/)
+[Reference](https://www.scaler.com/topics/c/compilation-process-in-c/)
 
 1. Pre-processing
     it will
