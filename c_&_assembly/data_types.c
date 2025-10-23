@@ -24,10 +24,12 @@ int main(){
 	
 	// stack
 	int a = 10;   // stack will automatically manage
+	printf("addr from stack data : %p\n", &a);
 	
 	// heap
 	int *ptr = malloc(4); // assign 4 byte memory space
 	*ptr = 50;  // store int 50 (4 byte) at the allocated memory addr
+	printf("addr from heap data : %p\n", &ptr);
 	free(ptr);
 
 	return 0;
